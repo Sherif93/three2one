@@ -20,14 +20,14 @@
 3. **H2 in-memory database**
 
     open http://localhost:8080/h2-console
-    JDBC URL: jdbc:h2:mem:testdb
+    <br />JDBC URL: jdbc:h2:mem:testdb
 
 4. **Call APIs**
     
     All APIs are required to enter Basic Auth: 
-        Username: user1
-        Password: user1Pass
+        <br />Username: user1
+        <br />Password: user1Pass
     
-    Except listing all courses (  http://localhost:8080/api/courses/all ) can be called without authentication
+    Except listing all courses (  http://localhost:8080/api/courses/all ) does not require authentication
 	
 
